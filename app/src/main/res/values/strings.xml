@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Geogame MP</string>
+    <string name="maps_api_key" translatable="false">api_key</string>
+    <string name="pietro0">0</string>
+    <string name="pietro1">1</string>
+    <string name="pietro2">2</string>
+    <string name="pietro3">3</string>
+    <string name="pietro4">4</string>
+    <string name="punkty_0">Punkty: 0</string>
+    <string name="czas_0">Czas: 0</string>
+    <string name="rozpocznij_gr">ROZPOCZNIJ GRĘ</string>
+</resources>

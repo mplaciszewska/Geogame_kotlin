@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.esri.arcgisruntime.mapping.view.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/floor_label_0"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/pietro0"
+        android:gravity="end"
+        android:layout_gravity="bottom|end"
+        android:paddingVertical="9dp"
+        android:paddingHorizontal="15dp"
+        android:backgroundTint="@color/colorSecondary"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        app:cornerRadius="7dp"/>
+
+    <Button
+        android:id="@+id/floor_label_1"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="57dp"
+        android:text="@string/pietro1"
+        android:gravity="end"
+        android:layout_gravity="bottom|end"
+        android:paddingVertical="9dp"
+        android:paddingHorizontal="15dp"
+        android:backgroundTint="@color/colorSecondary"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        app:cornerRadius="7dp"/>
+
+    <Button
+        android:id="@+id/floor_label_2"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="102dp"
+        android:text="@string/pietro2"
+        android:gravity="end"
+        android:layout_gravity="bottom|end"
+        android:paddingVertical="9dp"
+        android:paddingHorizontal="15dp"
+        android:backgroundTint="@color/colorSecondary"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        app:cornerRadius="7dp"/>
+
+    <Button
+        android:id="@+id/floor_label_3"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="147dp"
+        android:text="@string/pietro3"
+        android:gravity="end"
+        android:layout_gravity="bottom|end"
+        android:paddingVertical="9dp"
+        android:paddingHorizontal="15dp"
+        android:backgroundTint="@color/colorSecondary"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        app:cornerRadius="7dp"/>
+
+    <Button
+        android:id="@+id/floor_label_4"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="192dp"
+        android:text="@string/pietro4"
+        android:gravity="end"
+        android:layout_gravity="bottom|end"
+        android:paddingVertical="9dp"
+        android:paddingHorizontal="15dp"
+        android:backgroundTint="@color/colorSecondary"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        app:cornerRadius="7dp"/>
+
+
+    <Button
+        android:id="@+id/position_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/rozpocznij_gr"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        app:cornerRadius="10dp"
+        />
+
+    <TextView
+        android:id="@+id/points_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:text="@string/punkty_0"
+        android:textColor="@android:color/white"
+        android:padding="9dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_background"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/czas_0"
+        android:textColor="@android:color/white"
+        android:padding="9dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_background"
+        android:textStyle="bold"
+        />
+
+</FrameLayout>

@@ -1,0 +1,48 @@
+[versions]
+agp = "8.8.0"
+androidBeaconLibraryVersion = "2.19.5"
+coreGoogleShortcuts = "1.1.0"
+coreRole = "1.0.0"
+coreSplashscreen = "1.2.0-beta01"
+coreVersion = "1.15.0"
+gson = "2.12.1"
+kotlin = "1.9.24"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+playServicesLocation = "21.3.0"
+androidBeaconLibrary = "2.19.4"
+arcgisAndroid = "100.15.2"
+
+[libraries]
+android-beacon-library-v2195 = { module = "org.altbeacon:android-beacon-library", version.ref = "androidBeaconLibraryVersion" }
+androidx-core = { module = "androidx.core:core", version.ref = "coreVersion" }
+androidx-core-animation = { module = "androidx.core:core-animation", version.ref = "coreRole" }
+androidx-core-animation-testing = { module = "androidx.core:core-animation-testing", version.ref = "coreRole" }
+androidx-core-google-shortcuts = { module = "androidx.core:core-google-shortcuts", version.ref = "coreGoogleShortcuts" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-ktx-v1150 = { module = "androidx.core:core-ktx", version.ref = "coreVersion" }
+androidx-core-performance = { module = "androidx.core:core-performance", version.ref = "coreRole" }
+androidx-core-remoteviews = { module = "androidx.core:core-remoteviews", version.ref = "coreGoogleShortcuts" }
+androidx-core-role = { module = "androidx.core:core-role", version.ref = "coreRole" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+google-play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+android-beacon-library = { group = "org.altbeacon", name = "android-beacon-library", version.ref = "androidBeaconLibrary" }
+arcgis-android = { module = "com.esri.arcgisruntime:arcgis-android", version.ref = "arcgisAndroid" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
